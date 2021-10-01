@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list with JavaScript</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="bg-secondary text-white rounded-bottom p-5">To Do List!</h1>
+      <input
+        id="inputField"
+        type="text"
+        placeholder="Go to the market..."
+        class="form-control-lg col-11"
+      />
+      <button id="addToDo" class="btn btn-secondary btn-lg">Add..</button>
+      <div class="to-do-list" id="toDoContainer"></div>
+      <footer>
+        <div class="row">
+          <div class="alert alert-primary text-center fs-6" role="alert">
+            If you want to <b><u>mark as a "done"</u></b
+            >, you can <b><u>tap one click</u></b> on your items. <br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="alert alert-primary text-center fs-6" role="alert">
+            If you want to <b><u>delete</u></b> your items, you can
+            <b><u>tap two click</u></b> on your items.
+          </div>
+        </div>
+        <p class="bg-secondary text-white mt-4">
+          <i>Copyright &copy; Koray Kolburan 2021</i>
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
